@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://roktolagbe.vercel.app/sitemap.xml
