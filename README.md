@@ -1,37 +1,45 @@
 # RoktoLagbe
 
-**RoktoLagbe** একটি ওয়েব অ্যাপ্লিকেশন যা রক্তদাতা ও রক্তগ্রহীতাদের মধ্যে দ্রুত সংযোগ স্থাপন সহজ করে। সহজ রেজিস্ট্রেশন এবং সার্চ সিস্টেমের মাধ্যমে, এই প্ল্যাটফর্মটি রক্তদান প্রক্রিয়া আরও কার্যকর ও দ্রুততর করে।
+**RoktoLagbe** is a web application that makes it easy to connect blood donors with people who need blood. Through a simple registration and search system, the platform aims to make the blood donation process faster and more effective.
 
-## ওয়েবসাইট লিংক
+## Live Site
 [https://roktolagbe.vercel.app/](https://roktolagbe.vercel.app/)
 
-## কীভাবে কাজ করে?
+## How It Works
 
-1. রক্তদাতা হিসেবে খুব সহজে নিবন্ধন করুন।
-2. আপনার এলাকার কাছাকাছি রক্তদাতা খুঁজুন।
-3. প্রয়োজনীয় তথ্য দেখে সরাসরি যোগাযোগ করুন।
+1. Register easily as a blood donor.
+2. Search for donors near your area.
+3. View the donor's details and contact them directly.
 
-## ডেমো ভিডিও
+## Demo Video
 
-ভিডিওতে দেখে নিন কীভাবে রেজিস্ট্রেশন করবেন এবং রক্তদাতা খুঁজে পাবেন:
+Watch how to register and find a donor:
 
 [https://youtu.be/s4Ut5Omja9o](https://youtu.be/s4Ut5Omja9o)
 
-## ফিচারসমূহ
+## Features
 
-- সহজ ও দ্রুত রেজিস্ট্রেশন প্রক্রিয়া
-- ব্লাড গ্রুপ ও লোকেশন অনুযায়ী রক্তদাতা অনুসন্ধান
-- নিরাপদ ও ব্যবহারকারী-বান্ধব ইন্টারফেস
-- রেসপন্সিভ ডিজাইন (মোবাইল ও ডেস্কটপ উভয়ের জন্য)
-- প্রজেক্টের বেশিরভাগ কোড ও ডেটা **ওপেন সোর্স**, শুধুমাত্র অল্প কিছু অংশ নিরাপত্তাজনিত কারণে উন্মুক্ত নয়
+- Simple, fast registration process
+- Search donors by blood group and location
+- Clean, user-friendly interface
+- Responsive design (mobile and desktop)
+- Most of the code and data is **open source** — only a small part is kept private for security reasons
 
-## প্রযুক্তিগত দিক
+## Tech Stack
 
 - **Frontend:** HTML, JavaScript
-  - Tailwind CSS ব্যবহৃত হয়েছে স্টাইলিংয়ের জন্য
-  - DataTables ব্যবহার করা হয়েছে ডেটা উপস্থাপনায়
-- **Backend:** Telegram Bot API ব্যবহৃত হয়েছে ফর্ম ডেটা প্রসেসিংয়ের জন্য (ডাটাবেজ ছাড়াই)
+  - Tailwind CSS for styling
+  - DataTables for presenting donor data
+- **Backend:** Telegram Bot API for handling form submissions (no database)
+
+## Project Status
+
+This project was originally built as a small social experiment — to test whether people are genuinely willing to register as blood donors, and whether a project like this could sustain itself through donations to justify turning it into something bigger.
+
+It didn't receive any donations, so it isn't being actively developed or maintained further. This is intentionally a **basic, minimal project**, not a polished product.
+
+The `data.json` file included in this repo contains sample blood donor data for about 10,000 people. Anyone is free to use this project as a base for their own — fork it, modify it, repurpose the data, or do anything else with it.
 
 ---
 
-**রক্ত দিন, জীবন বাঁচান। RoktoLagbe — Because every drop counts.**
+**Give blood, save a life. RoktoLagbe — because every drop counts.**
